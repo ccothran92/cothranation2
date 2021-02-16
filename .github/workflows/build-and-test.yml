@@ -1,4 +1,5 @@
 name: Build and Test
+on: push
 steps:
   docker-build: 
     runs-on: ubuntu-latest
