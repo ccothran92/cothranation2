@@ -4,7 +4,9 @@
   "description": "My MidTier Layer",
   "main": "index.js",
   "scripts": {
-    "test": "echo lets pretend Im running tests"
+    "dockerbuild" : "docker build -t myapp .",
+    "test": "echo lets pretend Im running tests",
+    "test2": "npx jest"
   },
   "repository": {
     "type": "git",
