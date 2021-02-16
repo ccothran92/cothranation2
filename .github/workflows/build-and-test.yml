@@ -1,6 +1,6 @@
 name: Build and Test
 on: push
-steps:
+jobs:
   docker-build: 
     runs-on: ubuntu-latest
     steps:
