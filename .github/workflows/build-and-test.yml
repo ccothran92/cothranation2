@@ -1,0 +1,7 @@
+name: Build and Test
+steps:
+  docker-build: 
+    runs-on: ubuntu-latest
+    steps:
+      run: |
+        docker build -t .
